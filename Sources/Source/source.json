@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Bulbasaur",
+        "type": "Grass",
+        "height": "2' 04",
+        "weight": "15.2 lbs"
+    },
+    {
+        "name": "Charmander",
+        "type": "Fire",
+        "height": "2' 00",
+        "weight": "18.7 lbs"
+    },
+    {
+        "name": "Pikachu",
+        "type": "Electric",
+        "height": "1' 04",
+        "weight": "13.2 lbs"
+    },
+    {
+        "name": "Squirtle",
+        "type": "Water",
+        "height": "1' 08",
+        "weight": "19.8 lbs"
+    }
+]

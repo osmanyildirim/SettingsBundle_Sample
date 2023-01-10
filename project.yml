@@ -1,0 +1,29 @@
+name: SettingsBundle_Sample
+
+options:
+  xcodeVersion: 13.4
+
+settings:
+  base:
+    CODE_SIGN_STYLE: Manual
+    SWIFT_VERSION: 5.0
+
+targets:
+  SettingsBundle_Sample:
+    type: application
+    sources: [Sources]
+    platform: iOS
+    deploymentTarget: 13.0
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: 1
+        PRODUCT_BUNDLE_IDENTIFIER: com.osmanyildirim.SettingsBundle-Sample
+    postbuildScripts:
+      - script: | 
+          export PATH="$PATH:/opt/homebrew/bin"
+          if which swiftlint > /dev/null; then
+            swiftlint
+          else
+            echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+          fi
+        name: SwiflLint

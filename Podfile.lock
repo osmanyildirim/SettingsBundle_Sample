@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (5.6.0)
+  - UIImageColors (2.1.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - UIImageColors
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - UIImageColors
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  UIImageColors: d2ef3b0877d203cbb06489eeb78ea8b7788caabe
+
+PODFILE CHECKSUM: d206e63339babc88cc795c989ec585b9b3273ef4
+
+COCOAPODS: 1.11.3
